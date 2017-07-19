@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<title>Conforming XHTML 1.0 Strict Template</title>
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"></link>
+		<link rel="stylesheet" type="text/css" href="styles.css"></link>
+		<script type="text/javascript" src="jquery-3.2.1.min.js"></script> 
+		<script type="text/javascript" src="script.js"></script> 
+	</head>
+
+	<body>
+		<div class="header">
+			<h1>2048 en XHTML 1.0 Strict</h1>
+			<h3>Réalisé dans le cadre du cours IFT3225 - Technologie de l'internet </h2>
+			<h3>Par Carlos Sanchez</h2>
+			<form method="get">
+				<fieldset>
+					<div class="change-dim">
+						<label for="dimensions">Changez les dimensions</label>
+						<input type="text" name="dimensions"/>
+						<input type="button" value="Soumettre" name="submit"/>
+					</div>
+					<div class="game-data">
+						<p>Score: <span class="score">0</span></p>
+						<input type="button" value="Nouvelle Partie" name="new-game"/>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+		<div class="grid">
+			<div class="game">
+			</div>
+		</div>	
+	</body>
+</html>
